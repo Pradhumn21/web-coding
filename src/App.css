@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.weatherApp{
+    text-align: center;
+    background-color: lightblue;
+    width: 40%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+   }
+   
+   .weatherApp img{
+     mix-blend-mode: multiply;
+     padding: 15px;
+   }
+   
+   .weatherApp h1{
+     padding: 10px;
+   }
+   
+   .inputbtn{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: whitesmoke;
+     width: 50%;
+     margin: auto;
+     border-radius: 10px;
+   }
+   
+   .inputbtn input:focus{
+     outline: none;
+     border: none;
+   }
+   
+   .inputbtn input{
+     border: none;
+   }
+   
+   .inputbtn button{
+    border: none;
+    padding: 3px;
+   cursor: pointer;
+    
+   }
+   
+   .humidityWind img{
+   mix-blend-mode: multiply;
+   padding-right: 0%;
+   }
+   
+   .humidityWind{
+     display: flex;
+    justify-content: center;
+   }
+   
